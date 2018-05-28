@@ -1,0 +1,5 @@
+site_name: Trace Features BDD
+pages:
+  - Home: index.md
+  - About: about.md
+  - Engenharia de Requisitos: elicitacao.md
