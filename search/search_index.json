@@ -46,6 +46,81 @@
             "title": "Elicita\u00e7\u00e3o de Requisitos"
         }, 
         {
+            "location": "/sprints/sprint1/", 
+            "text": "p { text-align: justify; text-indent: 30px; } \n\n\n\n \nSprint\n 1 \n\n\nN\u00famero da \nSprint\n: 1\n\n\nData de In\u00edcio: 09/06/2017\n\n\nData de T\u00e9rmino: 16/06/2017\n\n\nDura\u00e7\u00e3o: Sete Dias (Uma Semana)\n\n\n 1. Pareamento\n\n\n\n\n 1. Planejamento das Hist\u00f3rias \n\n\nPara esta \nsprint\n foram constatadas dependencias entre as Issues, mas da mesma foram todas puderam ser completadas sem maiores problemas. Como foi realizada apenas uma sprint, todas as Issues foram conclu\u00eddas nesta.\n\n\nFoi realizada tamb\u00e9m uma Issue t\u00e9cnica, a qual modifica o projeto para que seja compat\u00edvel com python 3.\n\n\n 2. Issues \n\n\n I01 - Retornar JSON com m\u00e9todos executados  \n\n\n Descri\u00e7\u00e3o: \n Ao executar o script, o mesmo deve criar um arquivo json contendo todos os m\u00e9todos executados durante a execu\u00e7\u00e3o dos cen\u00e1rios das features, da seguinte forma:\n\n\n{ \nfeatures\n: [\n    {\n        \nnome_arquivo\n: \npath + nome do arquivo\n,\n        \nfuncionalidade\n: \nNome da Funcionalidade\n,\n        \ncenario\n: \nNome do Cenario\n,\n        \nmetodos_executados\n: [\n             { \nnome\n: \nclasse+nomeMetodo\n, \nnumero_execucoes\n: \n3\n},\n             { \nnome\n: \nclasse+nomeMetodo\n, \nnumero_execucoes\n: \n2\n},\n             { \nnome\n: \nclasse+nomeMetodo\n, \nnumero_execucoes\n: \n1\n}\n        ]\n   },\n   {\n        \nnome_arquivo\n: \npath + nome do arquivo2\n,\n        \nfuncionalidade\n: \nNome da Funcionalidade2\n,\n        \ncenario\n: \nNome do Cenario\n,\n        \nmetodos_executados\n: [\n             { \nnome\n: \nclasse+nomeMetodo\n, \nnumero_execucoes\n: \n1\n},\n             { \nnome\n: \nclasse+nomeMetodo\n, \nnumero_execucoes\n: \n2\n},\n             { \nnome\n: \nclasse+nomeMetodo\n, \nnumero_execucoes\n: \n3\n}\n        ]\n   }\n ]\n}\n\n\n\n\n Respons\u00e1veis: \n Bernardo Henrique.\n\n\n\n I04 - Executar cen\u00e1rios separadamente em cada .feature \n\n\n Descri\u00e7\u00e3o: \n Dado um arquivo .feature escolhido pelo usu\u00e1rio, o script deve identificar os cen\u00e1rios presentes dentro do arquivo .feature (basta buscar a palavra-chave \"Cen\u00e1rio:\", ou \"Delinea\u00e7\u00e3o do Cen\u00e1rio\") e executar cada cen\u00e1rio individualmente, registrando os m\u00e9todos executados por cada cen\u00e1rio. Como resultado pode-se utilizar o Json especificado na #3 .\n\n\nPara executar apenas um cen\u00e1rio que come\u00e7a na linha 7, por exemplo, pode-se utilizar o seguinte comando:\n\n\ncucumber features/nome_arquivo.feature:7\n\n\n\n\nAssim, apenas o cen\u00e1rio que se inicia na linha 7 ser\u00e1 executado, registre todos os m\u00e9todos executados durante este cen\u00e1rio e pronto.\n\n\n Respons\u00e1veis: \n Mariana P\u00edcolo e Let\u00edcias Dias.\n\n\n\n I06 - Verificar os requisitos necess\u00e1rios para um projeto Ruby \n\n\n Descri\u00e7\u00e3o: \n \n\n\n\n\nVerificar se \u00e9 um projeto Rails\n\n\nVerificar se possui a gem SimpleCov\n\n\nVerificar se a gem est\u00e1 instanciada corretamente\n\n\n\n\n Respons\u00e1veis: \n Hal\u00ea Valente.\n\n\n\n I07 - Incluir requisitos faltantes \n\n\n Descri\u00e7\u00e3o: \n \n\n\n\n\nIncluir a gem no Gemfile\n\n\nExecutar o bundle install\n\n\nInstanciar a gem no arquivo env.rb\n\n\n\n\n Respons\u00e1veis: \n Daniel Teles.\n\n\n\n I09 - Identificar defini\u00e7\u00e3o de m\u00e9todos e classes em um arquivo \n\n\n Descri\u00e7\u00e3o: \n \n\n\nRecebe um n\u00famero e o nome do arquivo. Dentro desse arquivo, na linha de n\u00famero indicado, verificar se \u00e9 defini\u00e7\u00e3o de m\u00e9todo ou classe. Se sim, retornar seu nome. Se n\u00e3o, retornar None.\n\n\nRetornar apenas se alguma linha dentro do m\u00e9todo ou classe estiver sendo executada.\n\n\n Respons\u00e1veis: \n Felipe Hargreaves.\n\n\n\n I10 - Criar interface com o usu\u00e1rio \n\n\n Descri\u00e7\u00e3o: \n Definir os comandos a serem utilizados pelo usu\u00e1rio para utilizar a biblioteca. Por exemplo:\n\n\ntrace_feature --file \ntrace_feature --file --scenario \nnome/linha do cen\u00e1rio\n\n\n\n\n\n Respons\u00e1veis: \n Clarissa Lima e Bruna Pinos.\n\n\n\n 3. Hist\u00f3rias T\u00e9cnicas \n\n\n I08 - Modificar para python 3 \n\n\n Descri\u00e7\u00e3o: \n Modifica\u00e7\u00e3o do projeto para que seja compat\u00edvel com python 3.\n\n\n Respons\u00e1veis: \n Time de Desenvolvimento.\n\n\n\n 4. Fechamento da \nSprint\n \n\n\n\n\n\n\n\n\nHist\u00f3rias Planejadas\n\n\nStatus\n\n\n\n\n\n\n\n\n\n\nI04:\n Executar cen\u00e1rios separadamente em cada .feature\n\n\n Completo \n\n\n\n\n\n\nI06:\n Verificar os requisitos necess\u00e1rios para um projeto Ruby\n\n\n Completo \n\n\n\n\n\n\nI07:\n Incluir requisitos faltantes\n\n\n Completo \n\n\n\n\n\n\nI09:\n Identificar defini\u00e7\u00e3o de m\u00e9todos e classes em um arquivo\n\n\n Completo \n\n\n\n\n\n\nI10:\n Criar interface com o usu\u00e1rio\n\n\n Completo \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHist\u00f3rias T\u00e9cnicas\n\n\nStatus\n\n\n\n\n\n\n\n\n\n\nI08:\n Modificar para python 3\n\n\n Completo \n\n\n\n\n\n\n\n\n 5. An\u00e1lise da Sprint \n\n\nA Sprint foi foi totalmente realizada, tanto as issues t\u00e9cnicas quanto as planejadas foram executadas.", 
+            "title": "Sprint 1"
+        }, 
+        {
+            "location": "/sprints/sprint1/#sprint-1", 
+            "text": "N\u00famero da  Sprint : 1  Data de In\u00edcio: 09/06/2017  Data de T\u00e9rmino: 16/06/2017  Dura\u00e7\u00e3o: Sete Dias (Uma Semana)", 
+            "title": "Sprint 1"
+        }, 
+        {
+            "location": "/sprints/sprint1/#1-pareamento", 
+            "text": "", 
+            "title": "1. Pareamento"
+        }, 
+        {
+            "location": "/sprints/sprint1/#1-planejamento-das-historias", 
+            "text": "Para esta  sprint  foram constatadas dependencias entre as Issues, mas da mesma foram todas puderam ser completadas sem maiores problemas. Como foi realizada apenas uma sprint, todas as Issues foram conclu\u00eddas nesta.  Foi realizada tamb\u00e9m uma Issue t\u00e9cnica, a qual modifica o projeto para que seja compat\u00edvel com python 3.", 
+            "title": "1. Planejamento das Hist\u00f3rias"
+        }, 
+        {
+            "location": "/sprints/sprint1/#2-issues", 
+            "text": "", 
+            "title": "2. Issues"
+        }, 
+        {
+            "location": "/sprints/sprint1/#i01-retornar-json-com-metodos-executados", 
+            "text": "Descri\u00e7\u00e3o:   Ao executar o script, o mesmo deve criar um arquivo json contendo todos os m\u00e9todos executados durante a execu\u00e7\u00e3o dos cen\u00e1rios das features, da seguinte forma:  {  features : [\n    {\n         nome_arquivo :  path + nome do arquivo ,\n         funcionalidade :  Nome da Funcionalidade ,\n         cenario :  Nome do Cenario ,\n         metodos_executados : [\n             {  nome :  classe+nomeMetodo ,  numero_execucoes :  3 },\n             {  nome :  classe+nomeMetodo ,  numero_execucoes :  2 },\n             {  nome :  classe+nomeMetodo ,  numero_execucoes :  1 }\n        ]\n   },\n   {\n         nome_arquivo :  path + nome do arquivo2 ,\n         funcionalidade :  Nome da Funcionalidade2 ,\n         cenario :  Nome do Cenario ,\n         metodos_executados : [\n             {  nome :  classe+nomeMetodo ,  numero_execucoes :  1 },\n             {  nome :  classe+nomeMetodo ,  numero_execucoes :  2 },\n             {  nome :  classe+nomeMetodo ,  numero_execucoes :  3 }\n        ]\n   }\n ]\n}   Respons\u00e1veis:   Bernardo Henrique.", 
+            "title": "I01 - Retornar JSON com m\u00e9todos executados"
+        }, 
+        {
+            "location": "/sprints/sprint1/#i04-executar-cenarios-separadamente-em-cada-feature", 
+            "text": "Descri\u00e7\u00e3o:   Dado um arquivo .feature escolhido pelo usu\u00e1rio, o script deve identificar os cen\u00e1rios presentes dentro do arquivo .feature (basta buscar a palavra-chave \"Cen\u00e1rio:\", ou \"Delinea\u00e7\u00e3o do Cen\u00e1rio\") e executar cada cen\u00e1rio individualmente, registrando os m\u00e9todos executados por cada cen\u00e1rio. Como resultado pode-se utilizar o Json especificado na #3 .  Para executar apenas um cen\u00e1rio que come\u00e7a na linha 7, por exemplo, pode-se utilizar o seguinte comando:  cucumber features/nome_arquivo.feature:7  Assim, apenas o cen\u00e1rio que se inicia na linha 7 ser\u00e1 executado, registre todos os m\u00e9todos executados durante este cen\u00e1rio e pronto.   Respons\u00e1veis:   Mariana P\u00edcolo e Let\u00edcias Dias.", 
+            "title": "I04 - Executar cen\u00e1rios separadamente em cada .feature"
+        }, 
+        {
+            "location": "/sprints/sprint1/#i06-verificar-os-requisitos-necessarios-para-um-projeto-ruby", 
+            "text": "Descri\u00e7\u00e3o:      Verificar se \u00e9 um projeto Rails  Verificar se possui a gem SimpleCov  Verificar se a gem est\u00e1 instanciada corretamente    Respons\u00e1veis:   Hal\u00ea Valente.", 
+            "title": "I06 - Verificar os requisitos necess\u00e1rios para um projeto Ruby"
+        }, 
+        {
+            "location": "/sprints/sprint1/#i07-incluir-requisitos-faltantes", 
+            "text": "Descri\u00e7\u00e3o:      Incluir a gem no Gemfile  Executar o bundle install  Instanciar a gem no arquivo env.rb    Respons\u00e1veis:   Daniel Teles.", 
+            "title": "I07 - Incluir requisitos faltantes"
+        }, 
+        {
+            "location": "/sprints/sprint1/#i09-identificar-definicao-de-metodos-e-classes-em-um-arquivo", 
+            "text": "Descri\u00e7\u00e3o:     Recebe um n\u00famero e o nome do arquivo. Dentro desse arquivo, na linha de n\u00famero indicado, verificar se \u00e9 defini\u00e7\u00e3o de m\u00e9todo ou classe. Se sim, retornar seu nome. Se n\u00e3o, retornar None.  Retornar apenas se alguma linha dentro do m\u00e9todo ou classe estiver sendo executada.   Respons\u00e1veis:   Felipe Hargreaves.", 
+            "title": "I09 - Identificar defini\u00e7\u00e3o de m\u00e9todos e classes em um arquivo"
+        }, 
+        {
+            "location": "/sprints/sprint1/#i10-criar-interface-com-o-usuario", 
+            "text": "Descri\u00e7\u00e3o:   Definir os comandos a serem utilizados pelo usu\u00e1rio para utilizar a biblioteca. Por exemplo:  trace_feature --file \ntrace_feature --file --scenario  nome/linha do cen\u00e1rio    Respons\u00e1veis:   Clarissa Lima e Bruna Pinos.", 
+            "title": "I10 - Criar interface com o usu\u00e1rio"
+        }, 
+        {
+            "location": "/sprints/sprint1/#3-historias-tecnicas", 
+            "text": "", 
+            "title": "3. Hist\u00f3rias T\u00e9cnicas"
+        }, 
+        {
+            "location": "/sprints/sprint1/#i08-modificar-para-python-3", 
+            "text": "Descri\u00e7\u00e3o:   Modifica\u00e7\u00e3o do projeto para que seja compat\u00edvel com python 3.   Respons\u00e1veis:   Time de Desenvolvimento.", 
+            "title": "I08 - Modificar para python 3"
+        }, 
+        {
+            "location": "/sprints/sprint1/#4-fechamento-da-sprint", 
+            "text": "Hist\u00f3rias Planejadas  Status      I04:  Executar cen\u00e1rios separadamente em cada .feature   Completo     I06:  Verificar os requisitos necess\u00e1rios para um projeto Ruby   Completo     I07:  Incluir requisitos faltantes   Completo     I09:  Identificar defini\u00e7\u00e3o de m\u00e9todos e classes em um arquivo   Completo     I10:  Criar interface com o usu\u00e1rio   Completo         Hist\u00f3rias T\u00e9cnicas  Status      I08:  Modificar para python 3   Completo", 
+            "title": "4. Fechamento da Sprint"
+        }, 
+        {
+            "location": "/sprints/sprint1/#5-analise-da-sprint", 
+            "text": "A Sprint foi foi totalmente realizada, tanto as issues t\u00e9cnicas quanto as planejadas foram executadas.", 
+            "title": "5. An\u00e1lise da Sprint"
+        }, 
+        {
             "location": "/arquitetura/descricao_de_pastas/", 
             "text": "Hist\u00f3rico de Revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n30/05/2018\n\n\n1.0\n\n\nCria\u00e7\u00e3o do Documento\n\n\nLet\u00edcia\n\n\n\n\n\n\n\n\nDescri\u00e7\u00e3o dos diret\u00f3rios criados para o Projeto\n\n\ntrace_feature\n\n\n\n\n\n\nEste diret\u00f3rio cont\u00e9m o arquivo __inity__.py, interfaceando o usu\u00e1rio da bib e com o sistema.\n\n\n\n\n\n\nDependendo do projeto onde a mesma for executada, o m\u00f3dulo adequado ser\u00e1 chamado.\n\n\n\n\n\n\nRuby (m\u00f3dulo de compatibilidade)", 
             "title": "Descri\u00e7\u00e3o de Pastas"
@@ -72,7 +147,7 @@
         }, 
         {
             "location": "/arquitetura/diagrama_classes/", 
-            "text": "Diagrama de Classes\n\n\nVers\u00e3o Atual - 10/06/2018\n\n\nAqui se encontra a vers\u00e3o mais atual do diagrama, de acordo com a implementa\u00e7\u00e3o. \u00c0 medida que o sistema evolui, deve ser gerada uma vers\u00e3o nova do modelo, se necess\u00e1rio.\n\n\n\n\nVers\u00f5es Anteriores\n\n\n09/06/2018", 
+            "text": "Diagrama de Classes\n\n\nVers\u00e3o Atual - 10/06/2018\n\n\nAqui se encontra a vers\u00e3o mais atual do diagrama, de acordo com a implementa\u00e7\u00e3o. \u00c0 medida que o sistema evolui, deve ser gerada uma vers\u00e3o nova do modelo, se necess\u00e1rio.\n\n\n\n\nPontos de Reutiliza\u00e7\u00e3o\n\n\nO sistema apresenta dois m\u00f3dulos bem distintos - O primeiro tem por responsabilidade modelar o contexto a ser analisado, criando a estrutura que servir\u00e1 de base para a cria\u00e7\u00e3o do JSON final. Este, a princ\u00edpio, n\u00e3o \u00e9 extens\u00edvel, pois est\u00e1 relacionado \u00e0 l\u00f3gica interna e espec\u00edfica da biblioteca: define o formato de uma Feature, de um Cen\u00e1rio, etc.\n\n\nO segundo m\u00f3dulo diz respeito \u00e0s diversas estrat\u00e9gias que podem ser aplicadas para a configura\u00e7\u00e3o e execu\u00e7\u00e3o do rastreamento de features - aqui se encontra a capacidade de reutiliza\u00e7\u00e3o e extens\u00e3o do sistema. Caso um usu\u00e1rio deseje adicionar algum passo extra de verifica\u00e7\u00e3o, ou adicionar suporte a uma nova linguagem ou \nframework\n, por exemplo, basta adicionar suas pr\u00f3prias classes de configura\u00e7\u00e3o e execu\u00e7\u00e3o, contanto que estejam conformes \u00e0 interface definida nas classes BaseConfig e BaseExecution.\n\n\nVers\u00f5es Anteriores\n\n\n09/06/2018", 
             "title": "Diagrama de Classes"
         }, 
         {
@@ -84,6 +159,11 @@
             "location": "/arquitetura/diagrama_classes/#versao-atual-10062018", 
             "text": "Aqui se encontra a vers\u00e3o mais atual do diagrama, de acordo com a implementa\u00e7\u00e3o. \u00c0 medida que o sistema evolui, deve ser gerada uma vers\u00e3o nova do modelo, se necess\u00e1rio.", 
             "title": "Vers\u00e3o Atual - 10/06/2018"
+        }, 
+        {
+            "location": "/arquitetura/diagrama_classes/#pontos-de-reutilizacao", 
+            "text": "O sistema apresenta dois m\u00f3dulos bem distintos - O primeiro tem por responsabilidade modelar o contexto a ser analisado, criando a estrutura que servir\u00e1 de base para a cria\u00e7\u00e3o do JSON final. Este, a princ\u00edpio, n\u00e3o \u00e9 extens\u00edvel, pois est\u00e1 relacionado \u00e0 l\u00f3gica interna e espec\u00edfica da biblioteca: define o formato de uma Feature, de um Cen\u00e1rio, etc.  O segundo m\u00f3dulo diz respeito \u00e0s diversas estrat\u00e9gias que podem ser aplicadas para a configura\u00e7\u00e3o e execu\u00e7\u00e3o do rastreamento de features - aqui se encontra a capacidade de reutiliza\u00e7\u00e3o e extens\u00e3o do sistema. Caso um usu\u00e1rio deseje adicionar algum passo extra de verifica\u00e7\u00e3o, ou adicionar suporte a uma nova linguagem ou  framework , por exemplo, basta adicionar suas pr\u00f3prias classes de configura\u00e7\u00e3o e execu\u00e7\u00e3o, contanto que estejam conformes \u00e0 interface definida nas classes BaseConfig e BaseExecution.", 
+            "title": "Pontos de Reutiliza\u00e7\u00e3o"
         }, 
         {
             "location": "/arquitetura/diagrama_classes/#versoes-anteriores", 
