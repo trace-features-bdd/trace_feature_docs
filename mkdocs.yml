@@ -3,8 +3,10 @@ pages:
   - Home: index.md
   - About: about.md
   - Engenharia de Requisitos: elicitacao.md
+  - Acompanhamento do Projeto: 
+    - Sprint 1: sprints/sprint1.md
   - Arquitetura:
     - Descrição de Pastas: arquitetura/descricao_de_pastas.md
     - Diagrama de Classes: arquitetura/diagrama_classes.md
     - Diagrama de Pacotes: arquitetura/diagrama_de_pacotes.md
-theme: readthedocs
+theme: material
