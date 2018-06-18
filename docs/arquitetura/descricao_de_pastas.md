@@ -8,8 +8,10 @@
 
 ## trace_feature
 
-* Este diretório contém o arquivo _\_inity__.py, interfaceando o usuário da bib e com o sistema.
+* Este diretório contém os pacotes core e models, sendo que o core carrega, também, o pacote ruby.
 
-* Dependendo do projeto onde a mesma for executada, o módulo adequado será chamado.
+* Dependendo do projeto onde a bib for executada, o módulo adequado será chamado.
 
 ## Ruby (módulo de compatibilidade)
+
+![Estrutura de Pastas](../img/estrutura_de_pastas.png)
