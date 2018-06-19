@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2018-06-17</lastmod>
+     <lastmod>2018-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,15 @@
     
     <url>
      <loc>/about/</loc>
-     <lastmod>2018-06-17</lastmod>
+     <lastmod>2018-06-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/howtoinstall/</loc>
+     <lastmod>2018-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -20,7 +28,7 @@
     
     <url>
      <loc>/elicitacao/</loc>
-     <lastmod>2018-06-17</lastmod>
+     <lastmod>2018-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -29,7 +37,7 @@
         
     <url>
      <loc>/sprints/sprint1/</loc>
-     <lastmod>2018-06-17</lastmod>
+     <lastmod>2018-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -39,19 +47,19 @@
         
     <url>
      <loc>/arquitetura/descricao_de_pastas/</loc>
-     <lastmod>2018-06-17</lastmod>
+     <lastmod>2018-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/arquitetura/diagrama_classes/</loc>
-     <lastmod>2018-06-17</lastmod>
+     <lastmod>2018-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/arquitetura/diagrama_de_pacotes/</loc>
-     <lastmod>2018-06-17</lastmod>
+     <lastmod>2018-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

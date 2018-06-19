@@ -2,47 +2,82 @@
     "docs": [
         {
             "location": "/", 
-            "text": "p { text-align: justify; text-indent: 30px; } \n\n\n\nTrace Features BDD\n\n\nBem vindo!\n\n\nGrupo 05\n\n\n\n\n\n\n\n\nNome\n\n\nE-mail\n\n\nGithub\n\n\nMatr\u00edcula\n\n\n\n\n\n\n\n\n\n\nBernardo Henrique Rosa Lima\n\n\nbernardohrl.unb@gmail.com\n\n\nbernardohrl\n\n\n14/0131973\n\n\n\n\n\n\nBruna Pinos de Oliveira\n\n\nbruna.pinos@gmail.com\n\n\nbrunapinos\n\n\n15/0119984\n\n\n\n\n\n\nClarissa Lima Borges\n\n\nclarissalimab08@gmail.com\n\n\nclarissalimab\n\n\n15/0007973\n\n\n\n\n\n\nDaniel Lucas Assun\u00e7\u00e3o Teles\n\n\ndanieelteles@gmail.com\n\n\ndanielteles\n\n\n12/0114411\n\n\n\n\n\n\nFelipe de Oliveira Hargreaves\n\n\nfhargreaves00@gmail.com\n\n\nhargre\n\n\n15/0009313\n\n\n\n\n\n\nHal\u00ea Valente Silva\n\n\nhalevalente@gmail.com\n\n\nhalevalente\n\n\n13/0010014\n\n\n\n\n\n\nLet\u00edcia de Souza Santos\n\n\nleticia.souza212@gmail.com\n\n\nleticiadesouza\n\n\n15/0015160\n\n\n\n\n\n\nMariana Nunes P\u00edcolo\n\n\nmariananpicolo@gmail.com\n\n\nmarianapicolo\n\n\n15/0017502", 
+            "text": "p { text-align: center; text-indent: 30px; } \n\n\n\n\n  \n\n\n\n\nBem vindo!\n\n\n\n\n\nGrupo 05\n\n\n\n\n\n\n\n\n\n\nNome\n\n\nE-mail\n\n\nGithub\n\n\nMatr\u00edcula\n\n\n\n\n\n\n\n\n\n\nBernardo Henrique Rosa Lima\n\n\nbernardohrl.unb@gmail.com\n\n\nbernardohrl\n\n\n14/0131973\n\n\n\n\n\n\nBruna Pinos de Oliveira\n\n\nbruna.pinos@gmail.com\n\n\nbrunapinos\n\n\n15/0119984\n\n\n\n\n\n\nClarissa Lima Borges\n\n\nclarissalimab08@gmail.com\n\n\nclarissalimab\n\n\n15/0007973\n\n\n\n\n\n\nDaniel Lucas Assun\u00e7\u00e3o Teles\n\n\ndanieelteles@gmail.com\n\n\ndanielteles\n\n\n12/0114411\n\n\n\n\n\n\nFelipe de Oliveira Hargreaves\n\n\nfhargreaves00@gmail.com\n\n\nhargre\n\n\n15/0009313\n\n\n\n\n\n\nHal\u00ea Valente Silva\n\n\nhalevalente@gmail.com\n\n\nhalevalente\n\n\n13/0010014\n\n\n\n\n\n\nLet\u00edcia de Souza Santos\n\n\nleticia.souza212@gmail.com\n\n\nleticiadesouza\n\n\n15/0015160\n\n\n\n\n\n\nMariana Nunes P\u00edcolo\n\n\nmariananpicolo@gmail.com\n\n\nmarianapicolo\n\n\n15/0017502", 
             "title": "Home"
         }, 
         {
-            "location": "/#trace-features-bdd", 
-            "text": "", 
-            "title": "Trace Features BDD"
-        }, 
-        {
-            "location": "/#bem-vindo", 
-            "text": "", 
-            "title": "Bem vindo!"
-        }, 
-        {
-            "location": "/#grupo-05", 
-            "text": "Nome  E-mail  Github  Matr\u00edcula      Bernardo Henrique Rosa Lima  bernardohrl.unb@gmail.com  bernardohrl  14/0131973    Bruna Pinos de Oliveira  bruna.pinos@gmail.com  brunapinos  15/0119984    Clarissa Lima Borges  clarissalimab08@gmail.com  clarissalimab  15/0007973    Daniel Lucas Assun\u00e7\u00e3o Teles  danieelteles@gmail.com  danielteles  12/0114411    Felipe de Oliveira Hargreaves  fhargreaves00@gmail.com  hargre  15/0009313    Hal\u00ea Valente Silva  halevalente@gmail.com  halevalente  13/0010014    Let\u00edcia de Souza Santos  leticia.souza212@gmail.com  leticiadesouza  15/0015160    Mariana Nunes P\u00edcolo  mariananpicolo@gmail.com  marianapicolo  15/0017502", 
-            "title": "Grupo 05"
-        }, 
-        {
             "location": "/about/", 
-            "text": "Sobre a ferramenta:\n\n\nEsta p\u00e1gina, \u00e0 principio, mant\u00e9m a documenta\u00e7\u00e3o existente para a ferramenta que\nprop\u00f5e a realiza\u00e7\u00e3o de um Trace de Features BDDs. Os artefatos aqui registrados\nforam propostos para a disciplina de Arquitetura e Desenho da Universidade de\nBras\u00edlia.", 
+            "text": "Hist\u00f3rico de Revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n30/05/2018\n\n\n1.0\n\n\nCria\u00e7\u00e3o do Documento\n\n\nLet\u00edcia\n\n\n\n\n\n\n17/06/2018\n\n\n2.0\n\n\nAdiciona Contextualiza\u00e7\u00e3o\n\n\nLet\u00edcia\n\n\n\n\n\n\n\n\nSobre a ferramenta:\n\n\nEsta p\u00e1gina, \u00e0 principio, mant\u00e9m a documenta\u00e7\u00e3o existente para a ferramenta que\nprop\u00f5e a realiza\u00e7\u00e3o de um Trace de Features \nBDDs\n. Os artefatos aqui registrados\nforam propostos para a disciplina de Arquitetura e Desenho da Universidade de\nBras\u00edlia.\n\n\nContextualiza\u00e7\u00e3o\n\n\nA ideia principal da ferramenta \u00e9 dentificar, dentro de um projeto, quais s\u00e3o os\nm\u00e9todos mais analisados dado um conjunto de cen\u00e1rios \nBDD\n.\n\n\nIsso se d\u00e1 \u00e0 partir do momento em que obtemos a lista de m\u00e9todos executados para\ncada: feature, cen\u00e1rio e todo o conjunto de features. Obter esses dados facilita\na rastreabilidade Requisito/C\u00f3digo.", 
             "title": "About"
         }, 
         {
+            "location": "/about/#historico-de-revisoes", 
+            "text": "Data  Vers\u00e3o  Descri\u00e7\u00e3o  Autor(es)      30/05/2018  1.0  Cria\u00e7\u00e3o do Documento  Let\u00edcia    17/06/2018  2.0  Adiciona Contextualiza\u00e7\u00e3o  Let\u00edcia", 
+            "title": "Hist\u00f3rico de Revis\u00f5es"
+        }, 
+        {
             "location": "/about/#sobre-a-ferramenta", 
-            "text": "Esta p\u00e1gina, \u00e0 principio, mant\u00e9m a documenta\u00e7\u00e3o existente para a ferramenta que\nprop\u00f5e a realiza\u00e7\u00e3o de um Trace de Features BDDs. Os artefatos aqui registrados\nforam propostos para a disciplina de Arquitetura e Desenho da Universidade de\nBras\u00edlia.", 
+            "text": "Esta p\u00e1gina, \u00e0 principio, mant\u00e9m a documenta\u00e7\u00e3o existente para a ferramenta que\nprop\u00f5e a realiza\u00e7\u00e3o de um Trace de Features  BDDs . Os artefatos aqui registrados\nforam propostos para a disciplina de Arquitetura e Desenho da Universidade de\nBras\u00edlia.", 
             "title": "Sobre a ferramenta:"
         }, 
         {
+            "location": "/about/#contextualizacao", 
+            "text": "A ideia principal da ferramenta \u00e9 dentificar, dentro de um projeto, quais s\u00e3o os\nm\u00e9todos mais analisados dado um conjunto de cen\u00e1rios  BDD .  Isso se d\u00e1 \u00e0 partir do momento em que obtemos a lista de m\u00e9todos executados para\ncada: feature, cen\u00e1rio e todo o conjunto de features. Obter esses dados facilita\na rastreabilidade Requisito/C\u00f3digo.", 
+            "title": "Contextualiza\u00e7\u00e3o"
+        }, 
+        {
+            "location": "/howtoinstall/", 
+            "text": "Instala\u00e7\u00e3o\n\n\nVirtualenv\n\n\n1. Instale o Pip\n\n\nPara visualizar se voc\u00ea possui o pip instalado, use:\n\n\npip --version\n\n\n\n\nCaso n\u00e3o tenha o pip instalado, use:\n\n\nsudo apt-get install python3-pip\n\n\n\n\n2. Instale o Virtualenv\n\n\nPara visualizar se voc\u00ea possui o virtualenv instalado, use:\n\n\nvirtualenv --version\n\n\n\n\nCaso n\u00e3o tenha o pip instalado, use:   \n\n\nsudo pip3 install virtualenv\n\n\n\n\n3. Crie um Virtualenv com Python3\n\n\nvirtualenv -p python3 env\n\n\n\n\n4. Entre no Virtualenv\n\n\nEntre na pasta que cont\u00e9m seu virtualenv e use:  \n\n\nsource env/bin/activate\n\n\n\n\n\n\nAp\u00f3s criar um \nvirtualenv\n, navegue at\u00e9 o diret\u00f3rio \ntrace_feature\n e execute o seguinte comando:   \n\n\n$ pip install .\n\n\n\n\nExecu\u00e7\u00e3o do projeto:\n\n\nPara executar o projeto, use o comando:\n\n\ntrace-feature -f [feature] -s [linha do cen\u00e1rio]\n\n\n\n\nOs argumentos s\u00e3o opcionais e n\u00e3o precisam ser especificados depois do comando. Vale lembrar tamb\u00e9m que para que o comando seja executado sem par\u00e2metros, \u00e9 necess\u00e1rio navegar at\u00e9 a pasta do projeto onde se deseja executar a ferramenta.\n\n\nPara obter ajuda sobre o comando e os argumentos, basta usar\n\n\ntrace-feature --help", 
+            "title": "How to install"
+        }, 
+        {
+            "location": "/howtoinstall/#instalacao", 
+            "text": "", 
+            "title": "Instala\u00e7\u00e3o"
+        }, 
+        {
+            "location": "/howtoinstall/#virtualenv", 
+            "text": "", 
+            "title": "Virtualenv"
+        }, 
+        {
+            "location": "/howtoinstall/#1-instale-o-pip", 
+            "text": "Para visualizar se voc\u00ea possui o pip instalado, use:  pip --version  Caso n\u00e3o tenha o pip instalado, use:  sudo apt-get install python3-pip", 
+            "title": "1. Instale o Pip"
+        }, 
+        {
+            "location": "/howtoinstall/#2-instale-o-virtualenv", 
+            "text": "Para visualizar se voc\u00ea possui o virtualenv instalado, use:  virtualenv --version  Caso n\u00e3o tenha o pip instalado, use:     sudo pip3 install virtualenv", 
+            "title": "2. Instale o Virtualenv"
+        }, 
+        {
+            "location": "/howtoinstall/#3-crie-um-virtualenv-com-python3", 
+            "text": "virtualenv -p python3 env", 
+            "title": "3. Crie um Virtualenv com Python3"
+        }, 
+        {
+            "location": "/howtoinstall/#4-entre-no-virtualenv", 
+            "text": "Entre na pasta que cont\u00e9m seu virtualenv e use:    source env/bin/activate   Ap\u00f3s criar um  virtualenv , navegue at\u00e9 o diret\u00f3rio  trace_feature  e execute o seguinte comando:     $ pip install .", 
+            "title": "4. Entre no Virtualenv"
+        }, 
+        {
+            "location": "/howtoinstall/#execucao-do-projeto", 
+            "text": "Para executar o projeto, use o comando:  trace-feature -f [feature] -s [linha do cen\u00e1rio]  Os argumentos s\u00e3o opcionais e n\u00e3o precisam ser especificados depois do comando. Vale lembrar tamb\u00e9m que para que o comando seja executado sem par\u00e2metros, \u00e9 necess\u00e1rio navegar at\u00e9 a pasta do projeto onde se deseja executar a ferramenta.  Para obter ajuda sobre o comando e os argumentos, basta usar  trace-feature --help", 
+            "title": "Execu\u00e7\u00e3o do projeto:"
+        }, 
+        {
             "location": "/elicitacao/", 
-            "text": "Hist\u00f3rico de Revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n30/05/2018\n\n\n1.0\n\n\nCria\u00e7\u00e3o do Documento\n\n\nLet\u00edcia\n\n\n\n\n\n\n\n\nElicita\u00e7\u00e3o de Requisitos", 
-            "title": "Engenharia de Requisitos"
+            "text": "Hist\u00f3rico de Revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n30/05/2018\n\n\n1.0\n\n\nCria\u00e7\u00e3o do Documento\n\n\nLet\u00edcia\n\n\n\n\n\n\n17/06/2018\n\n\n2.0\n\n\nFechamento do Documento\n\n\nLet\u00edcia\n\n\n\n\n\n\n\n\nElicita\u00e7\u00e3o de Requisitos\n\n\nNossa biblioteca, por se tratar de um projeto de contribui\u00e7\u00e3o, iniciou-se, em seu controle de vers\u00e3o, a partir de um fork realizado do projeto j\u00e1 existente, do aluno de mestrado do departamento de ci\u00eancia da computa\u00e7\u00e3o, Rafael Fazzolino, que possui um reposit\u00f3rio com a vers\u00e3o inicial da biblioteca, que pode ser encontrado\n\naqui\n.\n\n\nOs requisitos foram rastreados como issues no reposit\u00f3rio original, pelo pr\u00f3prio Rafael, que atuou como P.O dentro do nosso desenvolvimento.\n\n\nAtrav\u00e9s de reuni\u00f5es constantes com o P.O,", 
+            "title": "Requirements engineering"
         }, 
         {
             "location": "/elicitacao/#historico-de-revisoes", 
-            "text": "Data  Vers\u00e3o  Descri\u00e7\u00e3o  Autor(es)      30/05/2018  1.0  Cria\u00e7\u00e3o do Documento  Let\u00edcia", 
+            "text": "Data  Vers\u00e3o  Descri\u00e7\u00e3o  Autor(es)      30/05/2018  1.0  Cria\u00e7\u00e3o do Documento  Let\u00edcia    17/06/2018  2.0  Fechamento do Documento  Let\u00edcia", 
             "title": "Hist\u00f3rico de Revis\u00f5es"
         }, 
         {
             "location": "/elicitacao/#elicitacao-de-requisitos", 
-            "text": "", 
+            "text": "Nossa biblioteca, por se tratar de um projeto de contribui\u00e7\u00e3o, iniciou-se, em seu controle de vers\u00e3o, a partir de um fork realizado do projeto j\u00e1 existente, do aluno de mestrado do departamento de ci\u00eancia da computa\u00e7\u00e3o, Rafael Fazzolino, que possui um reposit\u00f3rio com a vers\u00e3o inicial da biblioteca, que pode ser encontrado aqui .  Os requisitos foram rastreados como issues no reposit\u00f3rio original, pelo pr\u00f3prio Rafael, que atuou como P.O dentro do nosso desenvolvimento.  Atrav\u00e9s de reuni\u00f5es constantes com o P.O,", 
             "title": "Elicita\u00e7\u00e3o de Requisitos"
         }, 
         {
@@ -122,8 +157,8 @@
         }, 
         {
             "location": "/arquitetura/descricao_de_pastas/", 
-            "text": "Hist\u00f3rico de Revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n30/05/2018\n\n\n1.0\n\n\nCria\u00e7\u00e3o do Documento\n\n\nLet\u00edcia\n\n\n\n\n\n\n\n\nDescri\u00e7\u00e3o dos diret\u00f3rios criados para o Projeto\n\n\ntrace_feature\n\n\n\n\n\n\nEste diret\u00f3rio cont\u00e9m o arquivo __inity__.py, interfaceando o usu\u00e1rio da bib e com o sistema.\n\n\n\n\n\n\nDependendo do projeto onde a mesma for executada, o m\u00f3dulo adequado ser\u00e1 chamado.\n\n\n\n\n\n\nRuby (m\u00f3dulo de compatibilidade)", 
-            "title": "Descri\u00e7\u00e3o de Pastas"
+            "text": "Hist\u00f3rico de Revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n30/05/2018\n\n\n1.0\n\n\nCria\u00e7\u00e3o do Documento\n\n\nLet\u00edcia\n\n\n\n\n\n\n\n\nDescri\u00e7\u00e3o dos diret\u00f3rios criados para o Projeto\n\n\ntrace_feature\n\n\n\n\n\n\nEste diret\u00f3rio cont\u00e9m os pacotes core e models, sendo que o core carrega, tamb\u00e9m, o pacote ruby.\n\n\n\n\n\n\nDependendo do projeto onde a bib for executada, o m\u00f3dulo adequado ser\u00e1 chamado.\n\n\n\n\n\n\nRuby (m\u00f3dulo de compatibilidade)", 
+            "title": "Folder description"
         }, 
         {
             "location": "/arquitetura/descricao_de_pastas/#historico-de-revisoes", 
@@ -137,7 +172,7 @@
         }, 
         {
             "location": "/arquitetura/descricao_de_pastas/#trace_feature", 
-            "text": "Este diret\u00f3rio cont\u00e9m o arquivo __inity__.py, interfaceando o usu\u00e1rio da bib e com o sistema.    Dependendo do projeto onde a mesma for executada, o m\u00f3dulo adequado ser\u00e1 chamado.", 
+            "text": "Este diret\u00f3rio cont\u00e9m os pacotes core e models, sendo que o core carrega, tamb\u00e9m, o pacote ruby.    Dependendo do projeto onde a bib for executada, o m\u00f3dulo adequado ser\u00e1 chamado.", 
             "title": "trace_feature"
         }, 
         {
@@ -147,8 +182,8 @@
         }, 
         {
             "location": "/arquitetura/diagrama_classes/", 
-            "text": "Diagrama de Classes\n\n\nVers\u00e3o Atual - 10/06/2018\n\n\nAqui se encontra a vers\u00e3o mais atual do diagrama, de acordo com a implementa\u00e7\u00e3o. \u00c0 medida que o sistema evolui, deve ser gerada uma vers\u00e3o nova do modelo, se necess\u00e1rio.\n\n\n\n\nPontos de Reutiliza\u00e7\u00e3o\n\n\nO sistema apresenta dois m\u00f3dulos bem distintos - O primeiro tem por responsabilidade modelar o contexto a ser analisado, criando a estrutura que servir\u00e1 de base para a cria\u00e7\u00e3o do JSON final. Este, a princ\u00edpio, n\u00e3o \u00e9 extens\u00edvel, pois est\u00e1 relacionado \u00e0 l\u00f3gica interna e espec\u00edfica da biblioteca: define o formato de uma Feature, de um Cen\u00e1rio, etc.\n\n\nO segundo m\u00f3dulo diz respeito \u00e0s diversas estrat\u00e9gias que podem ser aplicadas para a configura\u00e7\u00e3o e execu\u00e7\u00e3o do rastreamento de features - aqui se encontra a capacidade de reutiliza\u00e7\u00e3o e extens\u00e3o do sistema. Caso um usu\u00e1rio deseje adicionar algum passo extra de verifica\u00e7\u00e3o, ou adicionar suporte a uma nova linguagem ou \nframework\n, por exemplo, basta adicionar suas pr\u00f3prias classes de configura\u00e7\u00e3o e execu\u00e7\u00e3o, contanto que estejam conformes \u00e0 interface definida nas classes BaseConfig e BaseExecution.\n\n\nVers\u00f5es Anteriores\n\n\n09/06/2018", 
-            "title": "Diagrama de Classes"
+            "text": "Diagrama de Classes\n\n\nVers\u00e3o Atual - 10/06/2018\n\n\nAqui se encontra a vers\u00e3o mais atual do diagrama, de acordo com a implementa\u00e7\u00e3o. \u00c0 medida que o sistema evolui, deve ser gerada uma vers\u00e3o nova do modelo, se necess\u00e1rio.\n\n\n\n\nPontos de Reutiliza\u00e7\u00e3o\n\n\nO sistema apresenta dois m\u00f3dulos bem distintos:\n\n\nO \n1\u00ba\n  Possui responsabilidade modelar o contexto a ser analisado, criando a estrutura que servir\u00e1 de base para a cria\u00e7\u00e3o do JSON final. Este, a princ\u00edpio, n\u00e3o \u00e9 extens\u00edvel, pois est\u00e1 relacionado \u00e0 l\u00f3gica interna e espec\u00edfica da biblioteca: define o formato de uma Feature, de um Cen\u00e1rio, etc.\n\n\nO \n2\u00ba\n m\u00f3dulo diz respeito \u00e0s diversas estrat\u00e9gias que podem ser aplicadas para a configura\u00e7\u00e3o e execu\u00e7\u00e3o do rastreamento de features - aqui se encontra a capacidade de reutiliza\u00e7\u00e3o e extens\u00e3o do sistema.\n\n\n\n\nCaso um usu\u00e1rio deseje adicionar algum passo extra de verifica\u00e7\u00e3o, ou adicionar suporte a uma nova linguagem ou \nframework\n, por exemplo, basta adicionar suas pr\u00f3prias classes de configura\u00e7\u00e3o e execu\u00e7\u00e3o, contanto que estejam conformes \u00e0 interface definida nas classes BaseConfig e BaseExecution.\n\n\n\n\nVers\u00f5es Anteriores\n\n\n09/06/2018", 
+            "title": "Class diagram"
         }, 
         {
             "location": "/arquitetura/diagrama_classes/#diagrama-de-classes", 
@@ -162,8 +197,13 @@
         }, 
         {
             "location": "/arquitetura/diagrama_classes/#pontos-de-reutilizacao", 
-            "text": "O sistema apresenta dois m\u00f3dulos bem distintos - O primeiro tem por responsabilidade modelar o contexto a ser analisado, criando a estrutura que servir\u00e1 de base para a cria\u00e7\u00e3o do JSON final. Este, a princ\u00edpio, n\u00e3o \u00e9 extens\u00edvel, pois est\u00e1 relacionado \u00e0 l\u00f3gica interna e espec\u00edfica da biblioteca: define o formato de uma Feature, de um Cen\u00e1rio, etc.  O segundo m\u00f3dulo diz respeito \u00e0s diversas estrat\u00e9gias que podem ser aplicadas para a configura\u00e7\u00e3o e execu\u00e7\u00e3o do rastreamento de features - aqui se encontra a capacidade de reutiliza\u00e7\u00e3o e extens\u00e3o do sistema. Caso um usu\u00e1rio deseje adicionar algum passo extra de verifica\u00e7\u00e3o, ou adicionar suporte a uma nova linguagem ou  framework , por exemplo, basta adicionar suas pr\u00f3prias classes de configura\u00e7\u00e3o e execu\u00e7\u00e3o, contanto que estejam conformes \u00e0 interface definida nas classes BaseConfig e BaseExecution.", 
+            "text": "", 
             "title": "Pontos de Reutiliza\u00e7\u00e3o"
+        }, 
+        {
+            "location": "/arquitetura/diagrama_classes/#o-sistema-apresenta-dois-modulos-bem-distintos", 
+            "text": "O  1\u00ba   Possui responsabilidade modelar o contexto a ser analisado, criando a estrutura que servir\u00e1 de base para a cria\u00e7\u00e3o do JSON final. Este, a princ\u00edpio, n\u00e3o \u00e9 extens\u00edvel, pois est\u00e1 relacionado \u00e0 l\u00f3gica interna e espec\u00edfica da biblioteca: define o formato de uma Feature, de um Cen\u00e1rio, etc.  O  2\u00ba  m\u00f3dulo diz respeito \u00e0s diversas estrat\u00e9gias que podem ser aplicadas para a configura\u00e7\u00e3o e execu\u00e7\u00e3o do rastreamento de features - aqui se encontra a capacidade de reutiliza\u00e7\u00e3o e extens\u00e3o do sistema.   Caso um usu\u00e1rio deseje adicionar algum passo extra de verifica\u00e7\u00e3o, ou adicionar suporte a uma nova linguagem ou  framework , por exemplo, basta adicionar suas pr\u00f3prias classes de configura\u00e7\u00e3o e execu\u00e7\u00e3o, contanto que estejam conformes \u00e0 interface definida nas classes BaseConfig e BaseExecution.", 
+            "title": "O sistema apresenta dois m\u00f3dulos bem distintos:"
         }, 
         {
             "location": "/arquitetura/diagrama_classes/#versoes-anteriores", 
@@ -178,7 +218,7 @@
         {
             "location": "/arquitetura/diagrama_de_pacotes/", 
             "text": "Hist\u00f3rico de Revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n30/05/2018\n\n\n1.0\n\n\nElabora\u00e7\u00e3o do Diagrama\n\n\nLet\u00edcia\n\n\n\n\n\n\n\n\nDiagrama de Pacotes", 
-            "title": "Diagrama de Pacotes"
+            "title": "Pack diagram"
         }, 
         {
             "location": "/arquitetura/diagrama_de_pacotes/#historico-de-revisoes", 
