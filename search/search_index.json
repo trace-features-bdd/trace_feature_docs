@@ -7,7 +7,7 @@
         }, 
         {
             "location": "/about/", 
-            "text": "Hist\u00f3rico de Revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n30/05/2018\n\n\n1.0\n\n\nCria\u00e7\u00e3o do Documento\n\n\nLet\u00edcia\n\n\n\n\n\n\n17/06/2018\n\n\n2.0\n\n\nAdiciona Contextualiza\u00e7\u00e3o\n\n\nLet\u00edcia\n\n\n\n\n\n\n\n\nSobre a ferramenta:\n\n\nEsta p\u00e1gina, \u00e0 principio, mant\u00e9m a documenta\u00e7\u00e3o existente para a ferramenta que\nprop\u00f5e a realiza\u00e7\u00e3o de um Trace de Features \nBDDs\n. Os artefatos aqui registrados\nforam propostos para a disciplina de Arquitetura e Desenho da Universidade de\nBras\u00edlia.\n\n\nContextualiza\u00e7\u00e3o\n\n\nA ideia principal da ferramenta \u00e9 dentificar, dentro de um projeto, quais s\u00e3o os\nm\u00e9todos mais analisados dado um conjunto de cen\u00e1rios \nBDD\n.\n\n\nIsso se d\u00e1 \u00e0 partir do momento em que obtemos a lista de m\u00e9todos executados para\ncada: feature, cen\u00e1rio e todo o conjunto de features. Obter esses dados facilita\na rastreabilidade Requisito/C\u00f3digo.", 
+            "text": "Hist\u00f3rico de Revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n30/05/2018\n\n\n1.0\n\n\nCria\u00e7\u00e3o do Documento\n\n\nLet\u00edcia\n\n\n\n\n\n\n17/06/2018\n\n\n2.0\n\n\nAdiciona Contextualiza\u00e7\u00e3o\n\n\nLet\u00edcia\n\n\n\n\n\n\n\n\nSobre a ferramenta:\n\n\nEsta p\u00e1gina, \u00e0 principio, mant\u00e9m a documenta\u00e7\u00e3o existente para a ferramenta que\nprop\u00f5e a realiza\u00e7\u00e3o de um Trace de Features \nBDDs\n. Os artefatos aqui registrados\nforam propostos para a disciplina de Arquitetura e Desenho da Universidade de\nBras\u00edlia.\n\n\nBDD\n\n\nNo contexto desse projeto, \u00e9 importante destacar o que \u00e9 BDD para entender melhor o objetivo da ferramenta. BDD (Beahviour Driven Development) \u00e9 t\u00e9cnica para desenvolvimento \u00e1gil que serve para criar testes e integrar regras de neg\u00f3cios com a tecnologia usada levando em conta o comportamento do software.\n\n\nO foco em BDD \u00e9 a linguagem e as intera\u00e7\u00f5es usadas no processo do desenvolvimento. Os testes s\u00e3o escritos em l\u00edngua nativa utilizando palavras-chave padr\u00e3o para descrev\u00ea-los. Assim, \u00e9 poss\u00edvel assegurar que cada unidade desenvolvida esteja de acordo com a sua especifica\u00e7\u00e3o funcional.\n\n\nNo BDD tempos atributos que chamamos de features, onde se deve realizar uma descri\u00e7\u00e3o sobre a funcionalidade e os cen\u00e1rios, onde s\u00e3o descritos cen\u00e1rios de testes. \nLeia mais\n\n\nContextualiza\u00e7\u00e3o\n\n\nA ideia principal da ferramenta \u00e9 identificar, dentro de um projeto, quais s\u00e3o os\nm\u00e9todos mais analisados dado um conjunto de cen\u00e1rios BDD.\n\n\nIsso se d\u00e1 \u00e0 partir do momento em que obtemos a lista de m\u00e9todos executados para\ncada: feature, cen\u00e1rio e todo o conjunto de features. Obter esses dados facilita\na rastreabilidade Requisito/C\u00f3digo.", 
             "title": "About"
         }, 
         {
@@ -21,8 +21,13 @@
             "title": "Sobre a ferramenta:"
         }, 
         {
+            "location": "/about/#bdd", 
+            "text": "No contexto desse projeto, \u00e9 importante destacar o que \u00e9 BDD para entender melhor o objetivo da ferramenta. BDD (Beahviour Driven Development) \u00e9 t\u00e9cnica para desenvolvimento \u00e1gil que serve para criar testes e integrar regras de neg\u00f3cios com a tecnologia usada levando em conta o comportamento do software.  O foco em BDD \u00e9 a linguagem e as intera\u00e7\u00f5es usadas no processo do desenvolvimento. Os testes s\u00e3o escritos em l\u00edngua nativa utilizando palavras-chave padr\u00e3o para descrev\u00ea-los. Assim, \u00e9 poss\u00edvel assegurar que cada unidade desenvolvida esteja de acordo com a sua especifica\u00e7\u00e3o funcional.  No BDD tempos atributos que chamamos de features, onde se deve realizar uma descri\u00e7\u00e3o sobre a funcionalidade e os cen\u00e1rios, onde s\u00e3o descritos cen\u00e1rios de testes.  Leia mais", 
+            "title": "BDD"
+        }, 
+        {
             "location": "/about/#contextualizacao", 
-            "text": "A ideia principal da ferramenta \u00e9 dentificar, dentro de um projeto, quais s\u00e3o os\nm\u00e9todos mais analisados dado um conjunto de cen\u00e1rios  BDD .  Isso se d\u00e1 \u00e0 partir do momento em que obtemos a lista de m\u00e9todos executados para\ncada: feature, cen\u00e1rio e todo o conjunto de features. Obter esses dados facilita\na rastreabilidade Requisito/C\u00f3digo.", 
+            "text": "A ideia principal da ferramenta \u00e9 identificar, dentro de um projeto, quais s\u00e3o os\nm\u00e9todos mais analisados dado um conjunto de cen\u00e1rios BDD.  Isso se d\u00e1 \u00e0 partir do momento em que obtemos a lista de m\u00e9todos executados para\ncada: feature, cen\u00e1rio e todo o conjunto de features. Obter esses dados facilita\na rastreabilidade Requisito/C\u00f3digo.", 
             "title": "Contextualiza\u00e7\u00e3o"
         }, 
         {
@@ -158,7 +163,7 @@
         {
             "location": "/arquitetura/descricao_de_pastas/", 
             "text": "Hist\u00f3rico de Revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n30/05/2018\n\n\n1.0\n\n\nCria\u00e7\u00e3o do Documento\n\n\nLet\u00edcia\n\n\n\n\n\n\n\n\nDescri\u00e7\u00e3o dos diret\u00f3rios criados para o Projeto\n\n\ntrace_feature\n\n\n\n\n\n\nEste diret\u00f3rio cont\u00e9m os pacotes core e models, sendo que o core carrega, tamb\u00e9m, o pacote ruby.\n\n\n\n\n\n\nDependendo do projeto onde a bib for executada, o m\u00f3dulo adequado ser\u00e1 chamado.\n\n\n\n\n\n\nRuby (m\u00f3dulo de compatibilidade)", 
-            "title": "Folder description"
+            "title": "Descri\u00e7\u00e3o de Pastas"
         }, 
         {
             "location": "/arquitetura/descricao_de_pastas/#historico-de-revisoes", 
@@ -183,7 +188,7 @@
         {
             "location": "/arquitetura/diagrama_classes/", 
             "text": "Diagrama de Classes\n\n\nVers\u00e3o Atual - 10/06/2018\n\n\nAqui se encontra a vers\u00e3o mais atual do diagrama, de acordo com a implementa\u00e7\u00e3o. \u00c0 medida que o sistema evolui, deve ser gerada uma vers\u00e3o nova do modelo, se necess\u00e1rio.\n\n\n\n\nPontos de Reutiliza\u00e7\u00e3o\n\n\nO sistema apresenta dois m\u00f3dulos bem distintos:\n\n\nO \n1\u00ba\n  Possui responsabilidade modelar o contexto a ser analisado, criando a estrutura que servir\u00e1 de base para a cria\u00e7\u00e3o do JSON final. Este, a princ\u00edpio, n\u00e3o \u00e9 extens\u00edvel, pois est\u00e1 relacionado \u00e0 l\u00f3gica interna e espec\u00edfica da biblioteca: define o formato de uma Feature, de um Cen\u00e1rio, etc.\n\n\nO \n2\u00ba\n m\u00f3dulo diz respeito \u00e0s diversas estrat\u00e9gias que podem ser aplicadas para a configura\u00e7\u00e3o e execu\u00e7\u00e3o do rastreamento de features - aqui se encontra a capacidade de reutiliza\u00e7\u00e3o e extens\u00e3o do sistema.\n\n\n\n\nCaso um usu\u00e1rio deseje adicionar algum passo extra de verifica\u00e7\u00e3o, ou adicionar suporte a uma nova linguagem ou \nframework\n, por exemplo, basta adicionar suas pr\u00f3prias classes de configura\u00e7\u00e3o e execu\u00e7\u00e3o, contanto que estejam conformes \u00e0 interface definida nas classes BaseConfig e BaseExecution.\n\n\n\n\nVers\u00f5es Anteriores\n\n\n09/06/2018", 
-            "title": "Class diagram"
+            "title": "Diagrama de Classes"
         }, 
         {
             "location": "/arquitetura/diagrama_classes/#diagrama-de-classes", 
@@ -218,7 +223,7 @@
         {
             "location": "/arquitetura/diagrama_de_pacotes/", 
             "text": "Hist\u00f3rico de Revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n30/05/2018\n\n\n1.0\n\n\nElabora\u00e7\u00e3o do Diagrama\n\n\nLet\u00edcia\n\n\n\n\n\n\n\n\nDiagrama de Pacotes", 
-            "title": "Pack diagram"
+            "title": "Diagrama de Pacotes"
         }, 
         {
             "location": "/arquitetura/diagrama_de_pacotes/#historico-de-revisoes", 
@@ -229,6 +234,41 @@
             "location": "/arquitetura/diagrama_de_pacotes/#diagrama-de-pacotes", 
             "text": "", 
             "title": "Diagrama de Pacotes"
+        }, 
+        {
+            "location": "/arquitetura/padroes/", 
+            "text": "Padr\u00f5es\n\n\nEstilo Arquitetural\n\n\nO projeto atualmente, dentro escopo da disciplina, pode ser identificado com o estilo Stand-alone: a ferramenta roda apenas na m\u00e1quina do usu\u00e1rio e n\u00e3o depende de terceiros para funcionar.\n\n\nApesar disso, \u00e9 interessante observar que a perspectiva \u00e9 de que o projeto seja um sistema distribu\u00eddo dentro do que se espera na aplica\u00e7\u00e3o como um todo. A ferramenta dever\u00e1 continuar rodando na m\u00e1quina do usu\u00e1rio, e, a partir da\u00ed, o arquivo json ser\u00e1 enviado para o servidor da aplica\u00e7\u00e3o completa. Isso evita que o servidor precise realizar o trabalho de executar os sistemas que ser\u00e3o analisados, deixando a cargo da m\u00e1quina do usu\u00e1rio interessado e, com o resultado enviado para o servidor, o usu\u00e1rio poder\u00e1 continuar o seu trabalho pela web.\n\n\nPadr\u00f5es de Projeto\n\n\nComposite\n\n\nO Composite \u00e9 implementado na parte de Cen\u00e1rios. Cada cen\u00e1rio pode descrever apenas um procedimento ou \u00e9 poss\u00edvel tamb\u00e9m que v\u00e1rios cen\u00e1rios simples estejam contidos dentro de outro cen\u00e1rio.\n\n\nStrategy\n\n\nConsiderando que se deseja que a ferramenta funcione para v\u00e1rias linguagens, o Strategy \u00e9 aplicado para que o software se comporte de maneira diferente de acordo com a linguagem a ser analisada.\n\n\nFacade\n\n\nO Facade \u00e9 usado para executar uma s\u00e9rie de procedimentos na inicia\u00e7\u00e3o do software, tais como identificar a linguagem do projeto a ser analisado e executar o setup.", 
+            "title": "Padr\u00f5es"
+        }, 
+        {
+            "location": "/arquitetura/padroes/#padroes", 
+            "text": "", 
+            "title": "Padr\u00f5es"
+        }, 
+        {
+            "location": "/arquitetura/padroes/#estilo-arquitetural", 
+            "text": "O projeto atualmente, dentro escopo da disciplina, pode ser identificado com o estilo Stand-alone: a ferramenta roda apenas na m\u00e1quina do usu\u00e1rio e n\u00e3o depende de terceiros para funcionar.  Apesar disso, \u00e9 interessante observar que a perspectiva \u00e9 de que o projeto seja um sistema distribu\u00eddo dentro do que se espera na aplica\u00e7\u00e3o como um todo. A ferramenta dever\u00e1 continuar rodando na m\u00e1quina do usu\u00e1rio, e, a partir da\u00ed, o arquivo json ser\u00e1 enviado para o servidor da aplica\u00e7\u00e3o completa. Isso evita que o servidor precise realizar o trabalho de executar os sistemas que ser\u00e3o analisados, deixando a cargo da m\u00e1quina do usu\u00e1rio interessado e, com o resultado enviado para o servidor, o usu\u00e1rio poder\u00e1 continuar o seu trabalho pela web.", 
+            "title": "Estilo Arquitetural"
+        }, 
+        {
+            "location": "/arquitetura/padroes/#padroes-de-projeto", 
+            "text": "", 
+            "title": "Padr\u00f5es de Projeto"
+        }, 
+        {
+            "location": "/arquitetura/padroes/#composite", 
+            "text": "O Composite \u00e9 implementado na parte de Cen\u00e1rios. Cada cen\u00e1rio pode descrever apenas um procedimento ou \u00e9 poss\u00edvel tamb\u00e9m que v\u00e1rios cen\u00e1rios simples estejam contidos dentro de outro cen\u00e1rio.", 
+            "title": "Composite"
+        }, 
+        {
+            "location": "/arquitetura/padroes/#strategy", 
+            "text": "Considerando que se deseja que a ferramenta funcione para v\u00e1rias linguagens, o Strategy \u00e9 aplicado para que o software se comporte de maneira diferente de acordo com a linguagem a ser analisada.", 
+            "title": "Strategy"
+        }, 
+        {
+            "location": "/arquitetura/padroes/#facade", 
+            "text": "O Facade \u00e9 usado para executar uma s\u00e9rie de procedimentos na inicia\u00e7\u00e3o do software, tais como identificar a linguagem do projeto a ser analisado e executar o setup.", 
+            "title": "Facade"
         }
     ]
 }

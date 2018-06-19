@@ -63,6 +63,12 @@
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>/arquitetura/padroes/</loc>
+     <lastmod>2018-06-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
 </urlset>

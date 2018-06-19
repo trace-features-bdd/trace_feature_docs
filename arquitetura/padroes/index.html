@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Diagrama de Classes - Trace Features BDD</title>
+  <title>Padrões - Trace Features BDD</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
@@ -17,9 +17,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Diagrama de Classes";
-    var mkdocs_page_input_path = "arquitetura/diagrama_classes.md";
-    var mkdocs_page_url = "/arquitetura/diagrama_classes/";
+    var mkdocs_page_name = "Padr\u00f5es";
+    var mkdocs_page_input_path = "arquitetura/padroes.md";
+    var mkdocs_page_url = "/arquitetura/padroes/";
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js"></script>
@@ -86,33 +86,31 @@
                     
     <a class="" href="../descricao_de_pastas/">Descrição de Pastas</a>
                 </li>
-                <li class=" current">
+                <li class="">
                     
-    <a class="current" href="./">Diagrama de Classes</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#diagrama-de-classes">Diagrama de Classes</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#versao-atual-10062018">Versão Atual - 10/06/2018</a></li>
-        
-            <li><a class="toctree-l4" href="#pontos-de-reutilizacao">Pontos de Reutilização</a></li>
-        
-            <li><a class="toctree-l4" href="#versoes-anteriores">Versões Anteriores</a></li>
-        
-        </ul>
-    
-
-    </ul>
+    <a class="" href="../diagrama_classes/">Diagrama de Classes</a>
                 </li>
                 <li class="">
                     
     <a class="" href="../diagrama_de_pacotes/">Diagrama de Pacotes</a>
                 </li>
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="../padroes/">Padrões</a>
+    <a class="current" href="./">Padrões</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#padroes">Padrões</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#estilo-arquitetural">Estilo Arquitetural</a></li>
+        
+            <li><a class="toctree-l4" href="#padroes-de-projeto">Padrões de Projeto</a></li>
+        
+        </ul>
+    
+
+    </ul>
                 </li>
     </ul>
 	    </li>
@@ -143,7 +141,7 @@
         
       
     
-    <li>Diagrama de Classes</li>
+    <li>Padrões</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -153,20 +151,17 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="diagrama-de-classes">Diagrama de Classes</h1>
-<h2 id="versao-atual-10062018">Versão Atual - 10/06/2018</h2>
-<p>Aqui se encontra a versão mais atual do diagrama, de acordo com a implementação. À medida que o sistema evolui, deve ser gerada uma versão nova do modelo, se necessário.<br><br></p>
-<p><img alt="Diagrama de Classes" src="../../img/DiagramadeClassesV2.png" /></p>
-<h2 id="pontos-de-reutilizacao">Pontos de Reutilização</h2>
-<h3 id="o-sistema-apresenta-dois-modulos-bem-distintos">O sistema apresenta dois módulos bem distintos:</h3>
-<p>O <strong>1º</strong>  Possui responsabilidade modelar o contexto a ser analisado, criando a estrutura que servirá de base para a criação do JSON final. Este, a princípio, não é extensível, pois está relacionado à lógica interna e específica da biblioteca: define o formato de uma Feature, de um Cenário, etc.</p>
-<p>O <strong>2º</strong> módulo diz respeito às diversas estratégias que podem ser aplicadas para a configuração e execução do rastreamento de features - aqui se encontra a capacidade de reutilização e extensão do sistema.</p>
-<ul>
-<li>Caso um usuário deseje adicionar algum passo extra de verificação, ou adicionar suporte a uma nova linguagem ou <em>framework</em>, por exemplo, basta adicionar suas próprias classes de configuração e execução, contanto que estejam conformes à interface definida nas classes BaseConfig e BaseExecution.</li>
-</ul>
-<h2 id="versoes-anteriores">Versões Anteriores</h2>
-<h3 id="09062018">09/06/2018</h3>
-<p><img alt="Diagrama de Classes" src="../../img/DiagramadeClassesV1.png" /></p>
+                <h1 id="padroes">Padrões</h1>
+<h2 id="estilo-arquitetural">Estilo Arquitetural</h2>
+<p>O projeto atualmente, dentro escopo da disciplina, pode ser identificado com o estilo Stand-alone: a ferramenta roda apenas na máquina do usuário e não depende de terceiros para funcionar.</p>
+<p>Apesar disso, é interessante observar que a perspectiva é de que o projeto seja um sistema distribuído dentro do que se espera na aplicação como um todo. A ferramenta deverá continuar rodando na máquina do usuário, e, a partir daí, o arquivo json será enviado para o servidor da aplicação completa. Isso evita que o servidor precise realizar o trabalho de executar os sistemas que serão analisados, deixando a cargo da máquina do usuário interessado e, com o resultado enviado para o servidor, o usuário poderá continuar o seu trabalho pela web.</p>
+<h2 id="padroes-de-projeto">Padrões de Projeto</h2>
+<h3 id="composite">Composite</h3>
+<p>O Composite é implementado na parte de Cenários. Cada cenário pode descrever apenas um procedimento ou é possível também que vários cenários simples estejam contidos dentro de outro cenário.</p>
+<h3 id="strategy">Strategy</h3>
+<p>Considerando que se deseja que a ferramenta funcione para várias linguagens, o Strategy é aplicado para que o software se comporte de maneira diferente de acordo com a linguagem a ser analisada.</p>
+<h3 id="facade">Facade</h3>
+<p>O Facade é usado para executar uma série de procedimentos na iniciação do software, tais como identificar a linguagem do projeto a ser analisado e executar o setup. </p>
               
             </div>
           </div>
@@ -174,10 +169,8 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../diagrama_de_pacotes/" class="btn btn-neutral float-right" title="Diagrama de Pacotes">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="../descricao_de_pastas/" class="btn btn-neutral" title="Descrição de Pastas"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../diagrama_de_pacotes/" class="btn btn-neutral" title="Diagrama de Pacotes"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -203,10 +196,8 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../descricao_de_pastas/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../diagrama_de_pacotes/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
-      
-        <span style="margin-left: 15px"><a href="../diagrama_de_pacotes/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
