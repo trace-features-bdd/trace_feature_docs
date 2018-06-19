@@ -6,8 +6,9 @@ pages:
   - Requirements engineering: elicitacao.md
   - Project monitoring:
     - Sprint 1: sprints/sprint1.md
-  - Architecture:
-    - Folder description: arquitetura/descricao_de_pastas.md
-    - Class diagram: arquitetura/diagrama_classes.md
-    - Pack diagram: arquitetura/diagrama_de_pacotes.md
+  - Arquitetura:
+    - Descrição de Pastas: arquitetura/descricao_de_pastas.md
+    - Diagrama de Classes: arquitetura/diagrama_classes.md
+    - Diagrama de Pacotes: arquitetura/diagrama_de_pacotes.md
+    - Padrões: arquitetura/padroes.md
 theme: readthedocs
